@@ -9,6 +9,9 @@ ul li{
     margin-right: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+ul li :hover{
+    color: rgb(38, 194, 38) ;
+}
 .brand-name{
     color: rgb(38, 194, 38);
     font-size: 30px;
@@ -44,6 +47,9 @@ a{
     background-color: rgb(38, 194, 38) ;
     color: rgb(249, 241, 241);
     border: none;
+}
+.about:hover{
+    transform: scale(1.2);
 }
 .more{
     text-align: center;
