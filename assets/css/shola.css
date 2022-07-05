@@ -2,14 +2,18 @@
     overflow-x: hidden;
     margin: 0;
 }
-ul li{
+.container{
+    height: 100vh;
+}
+.lists li{
     line-height: 50px;
     list-style-type: none;
     display: inline-block;
     margin-right: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-ul li :hover{
+
+.lists li :hover{
     color: rgb(38, 194, 38) ;
 }
 .brand-name{
@@ -18,6 +22,7 @@ ul li :hover{
 }
 nav>div>h5{
     margin-top: 5px;
+    margin-left: 8px;
 }
 nav{
     display: flex;
@@ -55,5 +60,19 @@ a{
     text-align: center;
     margin-top: 1rem;
     font-size: 1.5rem;
+}
+footer{
+    height: 25vh;
+    background-color:rgb(88, 86, 86);
+    color: white;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    
+}
+.company{
+    color: white;
+}
+.company:hover{
+    color:  rgb(38, 194, 38);
 }
 
