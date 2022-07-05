@@ -67,7 +67,11 @@ footer{
     color: white;
     display: grid;
     grid-template-columns: 75% 25%;
-    
+}
+.f-awesome{
+    display: flex;
+    flex-direction:row-reverse;
+
 }
 .company{
     color: white;
@@ -75,4 +79,35 @@ footer{
 .company:hover{
     color:  rgb(38, 194, 38);
 }
-
+.fa{
+    margin-right: 5px;
+}
+.mission{
+font-size: 20px;
+margin-top: 20px;
+}
+h3 i{
+    color:  rgb(38, 194, 38) ;
+}
+.flex{
+    display: flex;
+}
+.fa-check{
+    color:   rgb(38, 194, 38);
+}
+.image{
+    display: flex;
+    margin-top: 7px;
+}
+.image p{
+    margin-left: 20px;
+}
+img{
+    width: 12rem;
+}
+.content2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 8px;
+    margin-left: 8px;
+    font-size: 25px;
+}
