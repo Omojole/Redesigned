@@ -62,25 +62,30 @@ a{
     font-size: 1.5rem;
 }
 footer{
-    height: 25vh;
     background-color:rgb(88, 86, 86);
+}
+.footer{
     color: white;
     display: grid;
-    grid-template-columns: 75% 25%;
+    grid-template-columns: 5fr 1fr;
+    height: 30vh;
+margin: 20px;
+
 }
 .f-awesome{
     display: flex;
     flex-direction:row-reverse;
-
+    margin-right: 10px;
 }
 .company{
     color: white;
+    margin-top: 10px;
 }
 .company:hover{
     color:  rgb(38, 194, 38);
 }
 .fa{
-    margin-right: 5px;
+    margin-right: 15px;
 }
 .mission{
 font-size: 20px;
@@ -110,4 +115,22 @@ img{
     margin-right: 8px;
     margin-left: 8px;
     font-size: 25px;
+}
+.footer-company{
+    display: flex;
+    flex-direction: column;
+}
+.opacity{
+    opacity: 0.5;
+}
+.border{
+background-color: grey;
+border-radius: 50%;
+width: 40px;
+height: 25px;
+text-align: center;
+padding-top: 14px;
+}
+.copyright{
+    margin-top: 5vh;
 }
