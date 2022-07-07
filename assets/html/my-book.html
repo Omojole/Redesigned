@@ -1,38 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/shola.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-<header>
-    <nav>
-        <div>
-            <h5><i class="brand-name">SholaTalks</i></h5>
+    <header>
+        <nav>
+            <div>
+                <h5><i class="brand-name">SholaTalks</i></h5>
+            </div>
+            <ul class="lists">
+                <li><a href="../../shola.html">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="my-book.html" class="active">My Book</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-target="#carousel" data-slide-to="0" class="active"></button>
+            <button type="button" data-target="#carousel" data-slide-to="1"></button>
+            <button type="button" data-target="#carousel" data-slide-to="2"></button>
+            <button type="button" data-target="#carousel" data-slide-to="3"></button>
         </div>
-        <ul class="lists">
-            <li><a href="../../shola.html">Home</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="my-book.html" class="active">My Book</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../images/Shola2.jpeg" alt=".." class="d-block w-50">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/Shola3.jpg" alt=".." class="d-block w-50">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/shola4.jpeg" alt=".." class="d-block w-50">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/shola5.jpg" alt=".." class="d-block w-50">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+<span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+                    </button>
+    </div>
+    </div>
     <div class="my-book">
-    <h3>BECOMING A BETTER MAN</h3>
-    <p>This book focuses on self-development. The goal of this book is to educate men on the principles of becoming better versions of themselves by increasing their self-confidence and value proposition, as well as to raise awareness of the newly learned manipulations of modern women.</p>
-    <h4>This book costs five thousand naira for this week and the price would sky-rocket in a week,why not get one now?grab this oppurtunity and unravel the book,find your purpose!know your worth!</h4>
-    <button>Make an Order</button>
-    <p>oops! aren't you a fan of books?,ypu don't like reading?or you would just prefer a physical session with Shola?,well,that's not impossible</p>
-    <p>Book a session with Shola now for just <span>$200</span></p>
-    <h5>Whether you book a physical session or buy the book,this promises to be one of the best you will ever come across,all you need to do is have a clear mind,relax,be open to receive conplicting facts,digest and make use of every information by acting in accordance.</h5>
-    <p>You can also contact the author <a href="contact.html" class="book">here</a>
-    </p>
-</div>
+        <h3>BECOMING A BETTER MAN</h3>
+        <p>This book focuses on self-development. The goal of this book is to educate men on the principles of becoming
+            better versions of themselves by increasing their self-confidence and value proposition, as well as to raise
+            awareness of the newly learned manipulations of modern women.</p>
+        <h4>This book costs five thousand naira for this week and the price would sky-rocket in a week,why not get one
+            now?grab this oppurtunity and unravel the book,find your purpose!know your worth!</h4>
+        <button>Make an Order</button>
+        <p>oops! aren't you a fan of books?,ypu don't like reading?or you would just prefer a physical session with
+            Shola?,well,that's not impossible</p>
+        <p>Book a session with Shola now for just <span>$200</span></p>
+        <h5>Whether you book a physical session or buy the book,this promises to be one of the best you will ever come
+            across,all you need to do is have a clear mind,relax,be open to receive conplicting facts,digest and make
+            use of every information by acting in accordance.</h5>
+        <p>You can also contact the author <a href="contact.html" class="book">here</a>
+        </p>
+    </div>
     <footer>
         <div class="footer">
             <div class="footer-company">
@@ -43,14 +82,18 @@
             <div>contactme@sholatalks.com</div>
             <h6 class="opacity copyright">Copyright@SholaTalks 2022|Powered by AlcarezWeb</h6>
             <div class="f-awesome">
-               <a href="#" class="company"> <i class="fa fa-twitter border" aria-hidden="true"></i></a>
-               <a href="#" class="company"> <i class="fa fa-instagram border" aria-hidden="true"></i></a>
-               <a href="#" class="company"> <i class="fa fa-facebook border" aria-hidden="true"></i></a>
-               <a href="#" class="company"><i class="fa fa-linkedin border" aria-hidden="true"></i></a>
+                <a href="#" class="company"> <i class="fa fa-twitter border" aria-hidden="true"></i></a>
+                <a href="#" class="company"> <i class="fa fa-instagram border" aria-hidden="true"></i></a>
+                <a href="#" class="company"> <i class="fa fa-facebook border" aria-hidden="true"></i></a>
+                <a href="#" class="company"><i class="fa fa-linkedin border" aria-hidden="true"></i></a>
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
     <script src="assets/js/shola.js"></script>
     <script src="https://kit.fontawesome.com/fd0f757bae.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
