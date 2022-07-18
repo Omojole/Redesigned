@@ -18,6 +18,11 @@ function showSlides() {
   slides[slideIndex - 1].style.display = "block";
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
-function sidebar(){
-  document.getElementById("lists")
+
+function openhomesidebar(){
+  document.getElementById("lists").style.width = '200px';
+}
+
+function closehomesidebar(){
+  document.getElementById("lists").style.width = '0px';
 }
