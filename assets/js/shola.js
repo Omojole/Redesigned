@@ -19,10 +19,10 @@ function showSlides() {
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 
-function openhomesidebar(){
+function opensidebar(){
   document.getElementById("lists").style.width = '200px';
 }
 
-function closehomesidebar(){
+function closesidebar(){
   document.getElementById("lists").style.width = '0px';
 }
