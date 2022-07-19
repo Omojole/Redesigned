@@ -15,14 +15,15 @@
             <div>
                 <h5><i class="brand-name">SholaTalks</i></h5>
             </div>
-            <i class="fa fa-bars" aria-hidden="true"></i>
-            <ul class="lists">
-                <li><a href="../../shola.html">Home</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="my-book.html" class="active">My Book</a></li>
-                <li><a href="session.html">Book a Session</a></li>
-            </ul>
+            <i onclick="opensidebar()" class=" fa fa-bars fa-2x" aria-hidden="true"></i>
+            <div class="lists" id="lists">
+                <i onclick="closesidebar()" class="closebtn fa fa-times fa-2x" aria-hidden="true"></i>
+                <a href="../../shola.html">Home</a>
+                <a href="#">Blog</a>
+                <a href="../../assets/html/about.html">About</a>
+                <a href="../../assets/html/my-book.html" class="active">My Book</a>
+                <a href="../../assets/html/session.html">Book a session</a>
+            </div>
         </nav>
     </header>
 
